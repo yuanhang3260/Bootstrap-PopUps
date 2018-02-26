@@ -19,6 +19,15 @@ module.exports = {
     umdNamedDefine: true,
   },
 
+  externals: {
+    jquery: {
+      root: 'jQuery',
+      commonjs: 'jquery',
+      commonjs2: 'jquery',
+      amd: 'jquery',
+    }
+  },
+
   module: {
     rules: [
       {
