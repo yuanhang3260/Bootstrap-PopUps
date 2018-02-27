@@ -28,6 +28,9 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
       },
+      { test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=20000'
+      },
     ]
   },
 };

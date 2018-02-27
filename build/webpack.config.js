@@ -25,6 +25,12 @@ module.exports = {
       commonjs: 'jquery',
       commonjs2: 'jquery',
       amd: 'jquery',
+    },
+    bootstrap: {
+      root: 'bootstrap',
+      commonjs: 'bootstrap',
+      commonjs2: 'bootstrap',
+      amd: 'bootstrap',
     }
   },
 
@@ -41,6 +47,9 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
+      },
+      { test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=20000'
       },
     ]
   },
