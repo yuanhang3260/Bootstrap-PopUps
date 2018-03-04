@@ -2,8 +2,8 @@
 
 This is a simple popup library based on Bootstrap Modal component, which can be used to replace the default window confirm and alert dialog boxes.
 
-<img src="https://github.com/yuanhang3260/Bootstrap-PopUps/blob/master/examples/confirm.png" alt="example1"/>
-<img src="https://github.com/yuanhang3260/Bootstrap-PopUps/blob/master/examples/alert.png" alt="example4"/>
+<img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/confirm.png" alt="example1"/>
+<img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/alert.png" alt="example4"/>
 
 ### Install
 ```nohighlight
@@ -36,7 +36,7 @@ function doSomething() {
   console.log("Done");
 }
 ```
-<img src="https://github.com/yuanhang3260/Bootstrap-PopUps/blob/master/examples/confirm.png" alt="example1"/>
+<img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/confirm.png" alt="example1"/>
 
 It needs to accept a config which has the following attributes.
 
@@ -67,7 +67,7 @@ function doSomethingWait(resolve, reject) {
 ```
 After "Yes" button is clicked, the box will show a fake prgoress bar, and disappears after task is done:
 
-<img src="https://github.com/yuanhang3260/Bootstrap-PopUps/blob/master/examples/waiting.png" alt="example4"/>
+<img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/waiting.png" alt="example4"/>
 
 #### Alert Box
 Alert is simple. It just takes a warning message to show in the box.
@@ -76,10 +76,10 @@ $("#btn-alert").click(() => {
   popups.alert("You can NOT do this! It is very dangerous operation.");
 });
 ```
-<img src="https://github.com/yuanhang3260/Bootstrap-PopUps/blob/master/examples/alert.png" alt="example4"/>
+<img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/alert.png" alt="example4"/>
 
 #### Use in browser
 This library is built as UMD compliant. So it can also be loaded directly in browser either by <script> or AMD, with module  
 name "popups". Note when used in this way, you need to load JQuery and Bootstrap JS/CSS before this module.
 ### License
-[MIT License](https://github.com/yuanhang3260/Bootstrap-PopUps/blob/master/LICENSE)
+[MIT License](https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/blob/master/LICENSE)
