@@ -2,8 +2,7 @@
 
 This is a simple popup library based on Bootstrap Modal component, which can be used to replace the default window confirm and alert dialog boxes.
 
-<img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/confirm.png" alt="example1"/>
-<img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/alert.png" alt="example4"/>
+<img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/pics.png" alt="example1"/>
 
 ### Install
 ```nohighlight
