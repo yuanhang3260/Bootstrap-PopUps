@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-popups",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "bootstrap popups",
   "main": "dist/prod/popups.dist.js",
   "scripts": {
