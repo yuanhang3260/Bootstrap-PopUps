@@ -24,7 +24,7 @@ import popups from "bootstrap-popups";
 ```javascript
 import $ from 'jquery';
 
-// Click "Yes" button to confirm, and the confirm box will close immediately.
+// Click "Yes" button to confirm. The box will close immediately.
 $("#btn-confirm").click(() => {
   popups.confirm({
     message: "Are you sure to do this?",
@@ -72,7 +72,6 @@ After "Yes" button is clicked, the box will show a fake prgoress bar, and disapp
 #### Alert Box
 Alert is simple. It just takes a warning message to show in the box.
 ```javascript
-// Click "Yes" button to confirm, and the confirm box will close immediately.
 $("#btn-alert").click(() => {
   popups.alert("You can NOT do this! It is very dangerous operation.");
 });
