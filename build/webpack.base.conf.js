@@ -3,16 +3,7 @@ const path = require('path')
 const webpack = require('webpack');
 
 module.exports = {
-  context: path.resolve(),
-
-  entry: {
-    app: path.resolve(__dirname, '../js/app.js'),
-  },
-
-  output: {
-    path: path.resolve(__dirname, '../dist/'),
-    filename: '[name].dev.js',
-  },
+  context: path.resolve(__dirname, '../'),
 
   module: {
     rules: [

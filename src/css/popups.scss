@@ -7,6 +7,15 @@ div.confirm-modal, div.alert-modal {
     div.modal-body {
       position: relative;
 
+      p.error-msg {
+        display: none;
+        margin: 0;
+      }
+
+      div.fake-progress {
+        display: none;
+      }
+
       p.alert-content {
         display: inline-block;
         margin-left: 27px;
