@@ -32,7 +32,7 @@ var cancelButton = $confirm.find(".button-cancel");
 
 function resetConfirm(config) {
   title.html(null).hide();
-  progressBar.find('.fake-progress').hide();
+  progressBar.hide();
   errorMsg.html(null).hide();
   yesButton.removeAttr("disabled").show();
 }

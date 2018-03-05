@@ -45,7 +45,7 @@ It needs to accept a config which has the following attributes.
 | task          | Task to execute when "Yes" button is clicked. |  function  |
 | syncWait      | If set true, the confirm box will wait for the task to be done,<br>and show an animated progress bar. |  bool |
 
-If syncWait mode is enabled, the task should be a promisable which takes arguments (resolve, reject), and call them respetively inside the task based on the result.
+If syncWait mode is enabled, the task should be a promisable which takes arguments (resolve, reject), and call them respectively inside the task.
 ```javascript
 // Confirm and sync wait the task to be done.
 $("#btn-confirm2").click(() => {
