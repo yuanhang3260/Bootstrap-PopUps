@@ -16,12 +16,12 @@ Just run "npm install" and they will be ready for use.
 However you need to include bootstrap CSS in your app to make sure styles are correctly applied.
 
 ```javascript
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import popups from "bootstrap-popups";
 ```
 #### Confirm Box
 ```javascript
-import $ from 'jquery';
+import $ from "jquery";
 
 // Click "Yes" button to confirm. The box will close immediately.
 $("#btn-confirm").click(() => {
@@ -78,7 +78,7 @@ $("#btn-alert").click(() => {
 <img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/alert.png" alt="example4"/>
 
 #### Use in browser
-This library is built as UMD compliant. So it can also be loaded directly in browser either by <script> or AMD, with module  
+This library is built as UMD compliant. So it can also be loaded directly in browser either by \<script\> or AMD, with module  
 name "popups". Note when used in this way, you need to load JQuery and Bootstrap JS/CSS before this module.
 ### License
 [MIT License](https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/blob/master/LICENSE)
