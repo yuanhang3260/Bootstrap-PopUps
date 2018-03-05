@@ -78,7 +78,6 @@ $("#btn-alert").click(() => {
 <img src="https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/master/examples/alert.png" alt="example4"/>
 
 #### Use in browser
-This library is built as UMD compliant. So it can also be loaded directly in browser either by \<script\> or AMD, with module  
-name "popups". Note when used in this way, you need to load JQuery and Bootstrap JS/CSS before this module.
+This library is built as UMD compliant. So it can also be loaded directly in browser either by \<script\> or AMD, with module name "popups". Note when used in this way, you need to load JQuery and Bootstrap JS/CSS before this module.
 ### License
 [MIT License](https://raw.githubusercontent.com/yuanhang3260/Bootstrap-PopUps/blob/master/LICENSE)
