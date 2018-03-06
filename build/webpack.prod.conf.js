@@ -15,10 +15,13 @@ exports.default = merge(baseWebpackConfig, {
     filename: '[name].dist.js',
 
     library: 'popups',
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs2',
     libraryExport: 'default',
     umdNamedDefine: true,
+    // globalObject: "this || window",
   },
+
+  devtool: "source-map",
 
   externals: {
     jquery: {

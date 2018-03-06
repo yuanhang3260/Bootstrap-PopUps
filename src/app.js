@@ -3,6 +3,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import popups from "./popups.js"
 
+function doSomething() {
+  console.log("Done");
+}
+
+function doLongTask(resolve) {
+  var result = 0;
+  for (var i = 0; i < 300; i++) {
+    for (var j = 0; j < 1000; j++) {
+      for (var k = 0; k < 1000; k++) {
+        result = result + i + j + k;
+      }
+    } 
+  }
+  console.log("result = " + result);
+  resolve();
+};
+
 function doSomethingWait(resolve, reject) {
   setTimeout(() => {
     console.log("Done");

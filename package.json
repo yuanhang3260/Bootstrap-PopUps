@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-popups",
   "version": "0.0.7",
-  "description": "bootstrap popups",
+  "description": "bootstrap dialog popups",
   "main": "dist/prod/popups.dist.js",
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.conf.js --mode development",

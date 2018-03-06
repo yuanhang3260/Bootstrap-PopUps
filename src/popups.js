@@ -54,13 +54,15 @@ function confirm(config) {
     var promise = new Promise((resolve, reject) => {
       if (config.syncWait) {
         // Sync execute task and show progress bar.
-        title.hide();
         yesButton.attr("disabled", true);
+        title.hide();
         showProgressBar();
-        task(resolve, reject);
+        setTimeout(() => {
+          task(resolve, reject);
+        }, 20);
       } else {
         // Async execute task and close box immediately.
-        task();
+        setTimeout(task, 20);
         resolve();
       }
     })
