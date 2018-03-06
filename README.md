@@ -49,7 +49,7 @@ The "confirm" function accepts a config which has the following attributes.
 | syncWait      | If set true, the confirm box will wait for the task to finish,<br>and show an animated progress bar. |  bool |
 
 ##### Sync Wait Mode
-Sometimes you may want the dialog box to wait the task to finish, e.g. waiting for an AJAX response. To enable this feature, you can use the "syncWait" mode. In this mode, the task must be a promisable which takes arguments (resolve, reject), and call resolve/reject respectively inside the task.
+Sometimes you may want the dialog box to wait for the task to finish, e.g. waiting for an AJAX response. To enable this feature, you can use the "syncWait" mode. In this mode, the task must be a promisable which takes arguments (resolve, reject), and call resolve/reject respectively inside the task.
 
 ```javascript
 // Confirm and sync wait the task to be done.
