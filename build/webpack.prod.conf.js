@@ -15,7 +15,7 @@ exports.default = merge(baseWebpackConfig, {
     filename: '[name].dist.js',
 
     library: 'popups',
-    libraryTarget: 'commonjs2',
+    libraryTarget: 'umd',
     libraryExport: 'default',
     umdNamedDefine: true,
     // globalObject: "this || window",
