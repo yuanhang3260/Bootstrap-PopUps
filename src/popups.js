@@ -53,7 +53,7 @@ function confirm(config) {
   yesButton.unbind().click(function() {
     var promise = new Promise((resolve, reject) => {
       if (config.syncWait) {
-        // Sync execute task and show progress bar.
+        // Async execute task and show progress bar.
         yesButton.attr("disabled", true);
         title.hide();
         showProgressBar();
@@ -90,7 +90,7 @@ var $alert = $(
     '<div class="modal-dialog modal-sm">' +
       '<div class="modal-content">' +
         '<div class="modal-body">' +
-          '<i class="icon-exclamation-circle-hy alert-icon">&nbsp</i>' +
+          '<i class="hy-icon-exclamation-circle alert-icon">&nbsp</i>' +
           '<p class="modal-title alert-content"></p>' +
         '</div>' +
         '<div class="modal-footer">' +

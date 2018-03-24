@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?yvspsh');
-  src:  url('fonts/icomoon.eot?yvspsh#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?yvspsh') format('truetype'),
-    url('fonts/icomoon.woff?yvspsh') format('woff'),
-    url('fonts/icomoon.svg?yvspsh#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?fr71mf');
+  src:  url('fonts/icomoon.eot?fr71mf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fr71mf') format('truetype'),
+    url('fonts/icomoon.woff?fr71mf') format('woff'),
+    url('fonts/icomoon.svg?fr71mf#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="hy-icon"], [class*=" hy-icon"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -24,6 +24,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-exclamation-circle-hy:before {
+.hy-icon-exclamation-circle:before {
   content: "\e901";
 }

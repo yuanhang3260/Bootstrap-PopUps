@@ -19,13 +19,15 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     publicPath: '/',
   },
 
+  devtool: "#source-map",
+
   devServer: {
     contentBase: './',
     historyApiFallback: true,
     inline: true,
     progress: true,
     host: 'localhost',
-    port: 9090,
+    port: 9091,
   },
 
   plugins: [  
