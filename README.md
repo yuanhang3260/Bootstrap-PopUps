@@ -11,7 +11,7 @@ npm install bootstrap-popups --save
 
 ### Usage
 This library is dependent on JQuery and Bootstrap JS, which are defined as external dependencies. You don't need to bother import them explicitly.
-Just run "npm install" and they will be ready for use.
+Just run `npm install` and they will be ready for use.
 
 However you need to include bootstrap CSS in your app to make sure styles are correctly applied.
 
@@ -40,7 +40,7 @@ function doSomething() {
 The dialog box will close immediately after "Yes" button is clicked, and the task will be executed asynchronously.
 
 ##### Config Arguments
-The "confirm" function accepts a config which has the following attributes.
+The `confirm` function accepts a config which has the following attributes.
 
 |   Attribute   |                Description                    |    Type    |
 | :-----------: | --------------------------------------------- | :--------: |
@@ -49,7 +49,7 @@ The "confirm" function accepts a config which has the following attributes.
 | syncWait      | If set true, the confirm box will wait for the task to finish,<br>and show an animated progress bar. |  bool |
 
 ##### Sync Wait Mode
-Sometimes you may want the dialog box to wait for the task to finish, e.g. waiting for an AJAX response. To enable this feature, you can use the "syncWait" mode. In this mode, the task must be a promisable which takes arguments (resolve, reject), and call resolve/reject respectively inside the task.
+Sometimes you may want the dialog box to wait for the task to finish, e.g. waiting for an AJAX response. To enable this feature, you can use the `syncWait` mode. In this mode, the task must be a promisable which takes arguments (resolve, reject), and call resolve/reject respectively inside the task.
 
 ```javascript
 // Confirm and sync wait the task to be done.
@@ -76,7 +76,7 @@ After "Yes" button is clicked, the box will show a fake prgoress bar, and disapp
 Note your task must call resolve/reject, otherwise the dialog box and progress bar will never close. If reject is called with some error message, the dialog box will finally display this message.
 
 #### Alert Box
-Alert is simple. It just takes a warning message to show in the box.
+`Alert` is simple. It just takes a warning message to show in the box.
 ```javascript
 $("#btn-alert").click(() => {
   popups.alert("You can NOT do this! It is very dangerous operation.");
